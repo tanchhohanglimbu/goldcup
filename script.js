@@ -1,0 +1,16 @@
+// menu-nav
+function showSidebar() {
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+
+function hideSidebar() {
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+} 
+
+// pre-loader
+var loader = document.getElementById("pre-loader");
+  window.addEventListener("load", function() {
+    loader.style.display = "none";
+  })
